@@ -16,5 +16,5 @@ def check_copyright(url):
     else:
         print("No copyright violations detected.")
 
-check_copyright("https://chivo.store")
-#just modify this website for yours and you will be able to check. 
+url = input("Enter the URL of the website to check: ")
+check_copyright(url)
